@@ -47,7 +47,7 @@ const Welcome = (props) => {
                         )
                     })}
                     <form className="welcomeForm" onSubmit={submitHandler} >
-                        <label>Full Name {inputName}</label>
+                        <label>Full Name</label>
                         <input type="text" placeholder="Steve Jobs" required onChange={inputNameHandler} />
                         <label>Display Name</label>
                         <input type="text" placeholder="Steve" required onChange={displayNameHandler} />
