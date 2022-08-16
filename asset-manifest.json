@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eden/static/css/main.ab812799.css",
-    "main.js": "/eden/static/js/main.8a8b71e9.js",
+    "main.js": "/eden/static/js/main.2f139826.js",
     "static/js/787.7093765b.chunk.js": "/eden/static/js/787.7093765b.chunk.js",
     "index.html": "/eden/index.html",
     "main.ab812799.css.map": "/eden/static/css/main.ab812799.css.map",
-    "main.8a8b71e9.js.map": "/eden/static/js/main.8a8b71e9.js.map",
+    "main.2f139826.js.map": "/eden/static/js/main.2f139826.js.map",
     "787.7093765b.chunk.js.map": "/eden/static/js/787.7093765b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab812799.css",
-    "static/js/main.8a8b71e9.js"
+    "static/js/main.2f139826.js"
   ]
 }
