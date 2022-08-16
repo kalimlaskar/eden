@@ -11,6 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Welcome />}></Route>
+        <Route path="/eden" element={<Welcome />}></Route>
         <Route path="/welcome" element={<Welcome />}></Route>
         <Route path="/home-work" element={<Homework />}></Route>
         <Route path="/planning" element={<Planning />}></Route>
