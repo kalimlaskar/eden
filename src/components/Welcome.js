@@ -3,13 +3,13 @@ import { WelcomeKit } from './style';
 import { TitleData } from '../title/Title';
 import { useState, createContext, useContext } from "react";
 import Timeline from './Timeline';
-
+import { useNavigate } from "react-router-dom";
 
 
 const Welcome = (props) => {
     const [inputName, setInputName] = useState('');
     const [displayName, setDisplayName] = useState('');
-
+    const history = useNavigate();
 
     const inputNameHandler = (event) => {
         setInputName(event.target.value);
@@ -23,7 +23,7 @@ const Welcome = (props) => {
         console.log({ displayName });
         localStorage.setItem('fullname', inputName);
         localStorage.setItem('displayname', displayName);
-        window.location.href = '/home-work';
+        history("/home-work");
     }
 
 
