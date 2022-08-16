@@ -29,7 +29,7 @@ const Planning = () => {
     return (
         <div className="App">
             <a href='/'>
-                <img alt="logo" src='./eden.png' />
+            <img alt="logo" src='https://i.postimg.cc/rsV4Bb7F/eden.png'/>
             </a>
             <PlanningKit>
                 <div className="PlanContainer">

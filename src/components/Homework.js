@@ -30,7 +30,7 @@ const Homework = (...props) => {
         <div className="App">
             {props.inputName}
             <a href='/'>
-                <img alt="logo" src='./eden.png' />
+            <img alt="logo" src='https://i.postimg.cc/rsV4Bb7F/eden.png'/>
             </a>
             <HomeKit>
                 <div className="HomeKitContainer">

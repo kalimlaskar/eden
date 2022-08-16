@@ -4,6 +4,7 @@ import { CongratulationsData } from '../title/Title';
 import { useState } from "react";
 
 
+
 const Congrts = () => {
     const [inputName, setInputName] = useState('');
     const [displayName, setDisplayName] = useState('');
@@ -27,7 +28,7 @@ const Congrts = () => {
     return (
         <div className="App">
             <a href='/'>
-                <img alt="logo" src='./eden.png' />
+                <img alt="logo" src='https://i.postimg.cc/rsV4Bb7F/eden.png'/>
             </a>
             <CongrtsKit>
                 <div className="congrtsContainer">
