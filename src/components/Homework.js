@@ -3,6 +3,8 @@ import { HomeKit } from './style';
 import { HomeData } from '../title/Title';
 import { useState } from "react";
 import Timeline from './Timeline';
+import { useNavigate } from "react-router-dom";
+
 
 
 
@@ -11,6 +13,7 @@ const Homework = (...props) => {
 
     const [workPlaceName, setWorkplaceName] = useState('');
     const [urlName, setUrlName] = useState('');
+    const navigator = useNavigate();
 
     const inputWorkplaceHandler = (event) => {
         setWorkplaceName(event.target.value);
@@ -23,7 +26,7 @@ const Homework = (...props) => {
         console.log({ workPlaceName });
         console.log({ urlName });
         console.log(localStorage.getItem('Name'));
-        window.location.href = '/planning';
+        navigator("/planning");
     }
 
     return (

@@ -2,6 +2,7 @@ import '../App.css';
 import { PlanningKit } from './style';
 import { PlanningData } from '../title/Title';
 import { useState, createContext, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -9,6 +10,7 @@ const Planning = () => {
     const UserContext = createContext();
     const [inputName, setInputName] = useState('');
     const [displayName, setDisplayName] = useState('');
+    const navigator = useNavigate();
 
     const inputNameHandler = (event) => {
         setInputName(event.target.value);
@@ -22,8 +24,7 @@ const Planning = () => {
         console.log({ displayName });
         localStorage.setItem('fullname', inputName);
         localStorage.setItem('displayname', displayName);
-        alert('work in progress');
-        window.location.href = '/congratulations';
+        navigator("/congratulations");
     }
 
     return (

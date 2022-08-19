@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 const Welcome = (props) => {
     const [inputName, setInputName] = useState('');
     const [displayName, setDisplayName] = useState('');
-    const history = useNavigate();
+    const navigator = useNavigate();
 
     const inputNameHandler = (event) => {
         setInputName(event.target.value);
@@ -23,7 +23,7 @@ const Welcome = (props) => {
         console.log({ displayName });
         localStorage.setItem('fullname', inputName);
         localStorage.setItem('displayname', displayName);
-        history("/home-work");
+        navigator("/home-work");
     }
 
 
