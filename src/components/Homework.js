@@ -2,7 +2,6 @@
 import { HomeKit } from './style';
 import { HomeData } from '../title/Title';
 import { useState } from "react";
-import Timeline from './Timeline';
 import { useNavigate } from "react-router-dom";
 
 
