@@ -6,7 +6,7 @@ import Timeline from './Timeline';
 import { useNavigate } from "react-router-dom";
 
 
-const Welcome = (props) => {
+const Welcome = () => {
     const [inputName, setInputName] = useState('');
     const [displayName, setDisplayName] = useState('');
     const navigator = useNavigate();
